@@ -1,0 +1,5 @@
+//MPD-File
+#ifndef(pack_C1) #declare global_pack_C1=yes; object {CAP_SMD_CHIP_0402()translate<0,0,0> rotate<0,0.000000,0>rotate<0,0.000000,0> rotate<0,0,0> translate<10.190000,0.000000,7.520000>translate<0,0.035000,0> }#end		//SMD Capacitor 0402 C1 0.1uf 0402-CAP
+#ifndef(pack_R1) #declare global_pack_R1=yes; object {RES_SMD_CHIP_0402("103",)translate<0,0,0> rotate<0,0.000000,0>rotate<0,0.000000,0> rotate<0,0,0> translate<10.060000,0.000000,18.190000>translate<0,0.035000,0> }#end		//SMD Resistor 0402 R1 10K 0402
+#ifndef(pack_R2) #declare global_pack_R2=yes; object {RES_SMD_CHIP_0402("103",)translate<0,0,0> rotate<0,0.000000,0>rotate<0,0.000000,0> rotate<0,0,0> translate<10.210000,0.000000,9.390000>translate<0,0.035000,0> }#end		//SMD Resistor 0402 R2 10K 0402
+#ifndef(pack_R3) #declare global_pack_R3=yes; object {RES_SMD_CHIP_0402("103",)translate<0,0,0> rotate<0,0.000000,0>rotate<0,0.000000,0> rotate<0,0,0> translate<10.250000,0.000000,11.140000>translate<0,0.035000,0> }#end		//SMD Resistor 0402 R3 10K 0402

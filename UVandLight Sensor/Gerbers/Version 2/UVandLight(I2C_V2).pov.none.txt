@@ -1,0 +1,4 @@
+Parts not found in 3dpack.dat or 3dusrpac.dat are:
+//U$1	EZ-I2CHEADERV1	EZ-I2CHEADERV1
+//U$2	UV-SI1132	UV-SI1132
+//U$3		LOGO2
