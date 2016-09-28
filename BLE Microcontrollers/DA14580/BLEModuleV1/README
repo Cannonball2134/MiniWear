@@ -1,0 +1,15 @@
+To program the module i used the DA14580 development kit: http://www.dialog-semiconductor.com/products/connectivity/bluetooth-low-energy/smartbond-development-tools/bluetooth-smart-development-kit-basic
+I hooked it up using the following connections:
+
+I isolated the DA14580 on the development board by removing the (J4) pin jumpers. 
+
+Steps
+
+Attach the 6.8V pin on jumper J8 to VPP on the external board to enable OTP programming (Make sure to do this after you have powered the VBAT with 3.3V, and make sure to remove it before you remove VBAT power)
+Attach (J4) RST pin to external board RST pin
+Attach (J5) 3V3 to external board VBAT pin
+Attach (J4) P0_4/TX to external board P0_4/TX (Which gives a Baud rate of 57.6k)
+Attach (J4) P0_5/RX to external board P0_5/RX (Which gives a Baud rate of 57.6k)
+
+This setup can download your code into the SRAM of my Murata board for testing. 
+For One Time Programming (OTP) the setup will be slightly different. 
